@@ -1,39 +1,45 @@
 .phone-container {
   margin: auto;
-  width: 25%;
+  width: 30%;
   height: 600px;
-  border: 3px solid green;
+  border: 3px solid grey;
+  border-radius: 20px;
   padding: 3%;
   display: flex;
   justify-content: center;
 }
 
 .screen-container {
-  /* border: 3px solid blue; */
   width: 100%;
   display: flex;
   flex-direction: column;
 }
 
 .image {
+  display: flex;
   height: 80%;
   width: 100%;
+  background-color: lightgrey;
+  border: 3px solid grey;
+  border-radius: 2%;
+  justify-content: center;
+  align-items: center;
 }
 
 img {
   height: 100%;
   width: 100%;
-  border-radius: 2%;
+  object-fit: contain;
 }
 
 .button-container {
   height: 20%;
-  /* border: 3px solid red; */
   width: 100%;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  margin-top: 28px;
 }
 
 .inner-container {
@@ -43,12 +49,12 @@ img {
 }
 
 .buttons {
-  width: 50%;
+  width: 65%;
   margin-top: 20px;
 }
 
 .counter-container {
-  width: 50%;
+  width: 65%;
 }
 
 p {
@@ -90,4 +96,8 @@ i {
 }
 .button {
   height: 20%;
+}
+
+#noMore {
+  align-items: center;
 }
